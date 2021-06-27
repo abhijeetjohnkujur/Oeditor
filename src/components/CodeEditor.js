@@ -5,10 +5,10 @@ import 'codemirror/mode/xml/xml'
 import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import '../css/editor.css'
+import resize from '../icons/resize.svg';
 
 import { Controlled as ControlledEditor } from 'react-codemirror2'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
+
 
 const CodeEditor = (props) => {
     const {
@@ -31,9 +31,8 @@ const CodeEditor = (props) => {
                 <button 
                 type="button"
                 onClick={() => setOpen(prevOpen => !prevOpen)}
-                className="expand-collapse-btn">
-                    Hi
-                    <fontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt } /> 
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    <img src={resize} className="" />
                     </button>
             </div>
             <ControlledEditor
