@@ -13,7 +13,7 @@ const Header = () => {
 
 		<div class="h-16 flex items-center w-full">
 			
-			<a class="h-6 w-6 mx-auto" href="#">
+			<a class="h-6 w-6 mx-auto">
 				<img
 					class="h-6 w-6 mx-auto"
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/512px-Svelte_Logo.svg.png"

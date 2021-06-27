@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
 import TextEditor from '../src/screens/TextEditor'
 

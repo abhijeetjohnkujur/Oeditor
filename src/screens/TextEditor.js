@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import CE from '../components/CodeEditor'
 import '../css/editor.css'
 import useLocalStorage from '../hooks/useLocalStorage'
