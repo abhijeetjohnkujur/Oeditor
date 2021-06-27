@@ -5,7 +5,7 @@ This is a online code editor, where we can test out different **HTML** **CSS** *
 
 # Technologies Used
 
-* **REACT JS**
+* **REACT JS** 
 * **CSS**
 * **JS (ES6)**
 * **CODERUNNER**
@@ -21,4 +21,5 @@ This is a online code editor, where we can test out different **HTML** **CSS** *
 
 # SCREENSHOTS
 
+![Output](https://user-images.githubusercontent.com/34749185/123559818-0b662880-d7bc-11eb-8537-c06475c623f2.png)
 
