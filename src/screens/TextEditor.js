@@ -49,14 +49,13 @@ const TextEditor = () => {
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-xl">OUTPUT</button>
             </div>
 
-            <div className="pane border-2 border-gray-200 mt-4 p-4 ds bg-white">
+            <div className="pane border-2 border-gray-200 mt-4  ds bg-white iframediv">
                 <iframe
                 srcDoc={srcDoc}
                 title="output"
                 sandbox="allow-scripts"
                 frameborder="0"
-                width="100%"
-                height="100%"
+               
                 />
             </div>
         </>
